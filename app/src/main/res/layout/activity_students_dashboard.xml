@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students_Dashboard"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Course"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/tmu_text"
+        android:background="@color/tmu_color"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BCA"
+        android:onClick="BCA_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MCA"
+        android:onClick="MCA_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="B.Tech"
+        android:onClick="BTech_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="M.Tech"
+        android:onClick="MTech_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="B.Sc"
+        android:onClick="BSc_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="M.Sc."
+        android:onClick="MSc_Login"
+        android:backgroundTint="@color/tmu_color"
+        android:textColor="@color/tmu_text"/>
+
+</LinearLayout>

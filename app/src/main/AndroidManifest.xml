@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CCSITAcademicApplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".bca_dashboard"
+            android:exported="false" />
+
+        <activity
+            android:name=".MSc_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MSc_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".BSc_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".BSc_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MTech_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MTech_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".BTech_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".BTech_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MCA_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".MCA_Login"
+            android:exported="false" />
+        <activity
+            android:name=".BCA_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".BCA_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Students_Dashboard"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Students_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".MCA_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Principal_Dashboard"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Registration_Students"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Students"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_Faculties"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Faculties"
+            android:exported="false" />
+        <activity
+            android:name=".Choose_Page"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Register_Principal"
+            android:exported="true" >
+
+        </activity>
+
+
+        <activity
+            android:name=".Animation_Front"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

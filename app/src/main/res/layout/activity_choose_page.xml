@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choose_Page"
+    android:orientation="vertical">
+
+    <ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:src="@mipmap/tmu_logo_pi"
+    android:layout_gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="20dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:padding="24dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_any"
+                android:textAlignment="center"
+                android:textColor="#451212"
+                android:layout_marginBottom="20dp"
+                android:textSize="33sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/principal_but"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/login_as_principal"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/tmu_color"
+                android:textColor="@color/tmu_text"
+                app:cornerRadius ="20dp"/>
+
+            <Button
+                android:id="@+id/faculty_but"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/login_as_faculties"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#F17A55"
+                android:textColor="#451212"
+                app:cornerRadius ="20dp"/>
+
+            <Button
+                android:id="@+id/student_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/login_as_students"
+                android:textSize="18sp"
+                android:onClick="Login_Student"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#F17A55"
+                android:textColor="#451212"
+                app:cornerRadius ="20dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CCSIT Academic Application</string>
+    <string name="login">Login</string>
+    <string name="phone_number_email">Phone number / email</string>
+    <string name="enter_your_phone_number_email">Enter your Phone number / email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_phone_number_email_">Enter Your Phone Number / Email</string>
+    <string name="phone_number_email_">Phone Number / Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login_">Login</string>
+    <string name="don_t_have_an_account_">Don\'t have an account</string>
+    <string name="choose_any">Choose Any</string>
+    <string name="login_as_principal">Login as Principal</string>
+    <string name="login_as_faculties">Login as Faculties</string>
+    <string name="login_as_students">Login as Students</string>
+    <string name="principal_registration">Principal Registration</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password_">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="login__">Login</string>
+    <string name="already_an_user">Already an user?</string>
+    <string name="faculty_login">Faculty Login</string>
+    <string name="faculty_registration">Faculty Registration</string>
+    <string name="student_login">Student Login</string>
+    <string name="principal_login">Principal Login</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="launch">Launch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_email_">Enter Your Email</string>
+    <string name="email_">Email</string>
+</resources>

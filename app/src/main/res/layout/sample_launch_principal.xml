@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAEDE9"
+        android:elevation="35dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:id="@+id/img_add"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                />
+
+            <EditText
+                android:id="@+id/edit_notification"
+                android:hint="No Notice"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/tmu_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:id="@+id/launch_principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+                <Button
+                    android:id="@+id/bca_laungh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BCA"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+                <Button
+                    android:id="@+id/mca_launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MCA"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+                <Button
+                    android:id="@+id/btech_lanch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/mtech_launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M.Tech."
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+                <Button
+                    android:id="@+id/bsc_launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc."
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+                <Button
+                    android:id="@+id/msc_launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M.Sc."
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+                <ImageButton
+                    android:id="@+id/close_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_close_24"
+                    android:backgroundTint="#FAEDE9"
+                    android:layout_gravity="right"/>
+
+                <!--<Button
+                    android:id="@+id/update_principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />
+
+
+                <Button
+                    android:id="@+id/delete_principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/tmu_color"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/tmu_text"
+                    />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:visibility="invisible"/>
+
+                <!--<ImageButton
+                    android:id="@+id/Add_pdf_icon_byrecycleview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add_notes"
+
+                    />-->
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
